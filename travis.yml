@@ -4,7 +4,7 @@ jdk:
 before_install:
   - sudo apt-get update
   - echo "Let's start gradle!"
-  - gradle assemble
+  - ./gradlew build
   - echo "We are in the Docker folder!"
 script:
   - docker build -t typesofcat-03 .
