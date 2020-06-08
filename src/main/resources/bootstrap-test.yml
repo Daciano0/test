@@ -3,4 +3,19 @@ spring:
     active: test
   application:
     name: typesofcat-breeds
+  cloud:
+    consul:
+      enabled: false
+      host: consul-cat:8500
+      config:
+        format: YAML
+        watch:
+          delay: 30000
+      discovery:
+        register-health-check: false
+    loadbalancer:
+      ribbon:
+        enabled: false
+securitycat: bigsecurity
+
 

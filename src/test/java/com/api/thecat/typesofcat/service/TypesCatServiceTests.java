@@ -54,7 +54,7 @@ public class TypesCatServiceTests {
 
 
     @Test
-    public void est_list_cats_breeds(){
+    public void test_list_cats_breeds(){
 
         this.addressCats = new AddressCats();
         this.catBreeds = new CatBreeds();
@@ -68,7 +68,7 @@ public class TypesCatServiceTests {
     }
 
     @Test
-    public void est_list_cats_origin(){
+    public void test_list_cats_origin(){
 
         this.catBreeds = new CatBreeds();
 
@@ -80,7 +80,7 @@ public class TypesCatServiceTests {
     }
 
     @Test
-    public void est_list_cats_temperament(){
+    public void test_list_cats_temperament(){
 
         this.catBreeds = new CatBreeds();
 
@@ -92,7 +92,7 @@ public class TypesCatServiceTests {
     }
 
     @Test
-    public void est_list_cats_queriesBuilder(){
+    public void test_list_cats_queriesBuilder(){
 
         this.addressCats = new AddressCats();
         this.catBreeds = new CatBreeds();

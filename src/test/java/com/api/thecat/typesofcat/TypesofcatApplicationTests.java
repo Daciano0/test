@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class TypesofcatApplicationTests {
 
-	@Test
+
 	public void contextLoads(){}
 
 }
