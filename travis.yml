@@ -3,7 +3,7 @@ jdk:
   - oraclejdk11
 before_install:
   - sudo apt-get update
-  - echo "Let's start gradle !"
+  - echo "Let's start gradle!"
   - gradle assemble
   - echo "We are in the Docker folder!"
 script:
