@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Daciano0/test.svg?branch=master)](https://travis-ci.com/Daciano0/test)
+
 # typesofcat -  Segundo projeto abaixo depois do resumo do projeto thecats.
 The new  TypesOfCat
 
